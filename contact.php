@@ -52,7 +52,7 @@
 	$phone = $_POST['phone'];
 	$addr = $_POST['addr'];
 	$from = $email;
-	$to = 'okagawa1981@gmail.com';  // please change this email id
+	$to = '******@gmail.com';  // please change this email id
 	$subject = 'Contact Form : mazStayホームページよりお問い合わせ';
 
 	$body = "From: $name\n E-Mail: $email\n PhoneNo: $phone\n  Address: $addr\n Message:\n $message";
